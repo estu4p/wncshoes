@@ -3,17 +3,18 @@ import React from "react";
 const ServicesTitle = ({
   title,
   count,
-  titleColour = "text-[#C5C5C5]",
+  isActive = false,
 }: {
   title: string;
   count: string;
-  titleColour?: string;
+  isActive?: boolean;
 }) => {
   return (
     <div className="flex items-start gap-2">
-      {/* <h3 className={`font-bebas text-8xl tracking-[-2px] ${titleColour}`}> */}
       <h3
-        className={`font-bebas text-6xl md:text-8xl tracking-[-2px] ${titleColour}`}
+        className={`font-bebas text-6xl md:text-8xl tracking-[-2px] cursor-pointer ${
+          isActive ? "text-foreground" : "text-[#C5C5C5]"
+        }`}
       >
         {title}
       </h3>
