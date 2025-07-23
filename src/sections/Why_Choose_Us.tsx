@@ -31,7 +31,7 @@ const Why_Choose_Us = () => {
             />
             <div className="md:h-[223px] w-fit bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-4xl p-6 md:p-7 flex items-end">
               <div className="">
-                <h5 className="font-bebas text-3xl md:text-5xl">
+                <h5 className="font-bebas text-3xl md:text-5xl whitespace-nowrap">
                   EXPERT OF <br className="md:hidden" /> TEAM
                 </h5>
                 <p className="text-[#667085] max-md:hidden text-lg md:text-xl mt-2">

@@ -16,7 +16,7 @@ export default function Home() {
       <Why_Choose_Us />
       <Gallery />
       <Location />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // import { Bebas_Neue, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/sections/Footer";
 
 // const bebas = Bebas_Neue({
 //   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

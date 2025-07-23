@@ -44,6 +44,24 @@ body {
   }
 }
 
+@theme inline {
+  --animation: "loop";
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-loop-scroll {
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
 .font-bebas {
   /* font-family: var(--font-bebas), sans-serif; */
   font-family: "Bebas Neueu";

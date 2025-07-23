@@ -1,4 +1,7 @@
+import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Gallery = () => {
   return (
@@ -20,24 +23,43 @@ const Gallery = () => {
             <span className="">for</span>
             <span className="">themselves</span>
           </div>
-          {/* result speak for themselves */}
         </div>
         <div className="relative py-8">
-          <div className="flex items-center justify-center">
-            <Image
-              src="/images/img_hero.png"
-              alt="cuci sepatu jogja"
-              width={320}
-              height={320}
-              className="w-[320px] h-[320px] object-cover rounded-4xl brightness-90 z-10"
-            />
+          <div className="w-[90%] md:w-[95%] flex items-center justify-center ml-4 md:ml-8">
+            <div className="overflow-hidden">
+              <div className="flex animate-loop-scroll space-x-7 w-max">
+                {[...Array(2)].flatMap((_) =>
+                  Array.from({ length: 7 }).map((_, i) => (
+                    <Image
+                      key={i + Math.random()}
+                      width={320}
+                      height={320}
+                      src="/images/img_hero.png"
+                      className="w-60 h-60 object-cover object-center rounded-4xl"
+                      alt="Image"
+                    />
+                  ))
+                )}
+              </div>
+            </div>
           </div>
-          <div className="flex items-center justify-between absolute top-1/2 -translate-y-1/2 w-full text-[150px] font-bold font-bebas text-foreground">
+          <div className="flex items-center justify-between absolute top-1/2 -translate-y-1/2 w-full text-[150px] font-bold font-bebas text-foreground z-10">
             <span>[</span>
             <span>]</span>
           </div>
         </div>
-        <p className="mt-3 text-foreground text-2xl font-semibold">
+        <div className="text-end mr-4">
+          <Button className="py-2 px-6 rounded-full">
+            See More <GoArrowUpRight className="inline ml-1 text-2xl" />
+          </Button>
+        </div>
+        {/* <div className="text-end mr-4">
+          <Link href="/gallery">
+            <span className="underline text-lg">See More</span>
+            <GoArrowUpRight className="inline text-2xl ml-1" />
+          </Link>
+        </div> */}
+        <p className="mt-2 text-foreground text-2xl text-justify">
           we go beyond cleaning - we repair, refresh and renew. whether it's
           your favorite sneakers, hats, or bags, see how we bring life back to
           every piece.
