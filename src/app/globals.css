@@ -62,6 +62,10 @@ body {
   will-change: transform;
 }
 
+.group:hover .animate-loop-scroll {
+  animation-play-state: paused;
+}
+
 .font-bebas {
   /* font-family: var(--font-bebas), sans-serif; */
   font-family: "Bebas Neueu";

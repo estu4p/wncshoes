@@ -25,17 +25,18 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative py-8">
-          <div className="w-[90%] md:w-[95%] flex items-center justify-center ml-4 md:ml-8">
-            <div className="overflow-hidden">
-              <div className="flex animate-loop-scroll space-x-7 w-max">
+          <div className="w-[93%] md:w-[95%] flex items-center justify-center">
+            <div className="overflow-hidden group z-10 ml-6 md:ml-8">
+              <div className="flex animate-loop-scroll space-x-7 w-max ">
                 {[...Array(2)].flatMap((_) =>
                   Array.from({ length: 7 }).map((_, i) => (
                     <Image
                       key={i + Math.random()}
                       width={320}
                       height={320}
+                      loading="lazy"
                       src="/images/img_hero.png"
-                      className="w-60 h-60 object-cover object-center rounded-4xl"
+                      className="w-60 h-60 object-cover object-center rounded-4xl "
                       alt="Image"
                     />
                   ))
@@ -43,13 +44,13 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between absolute top-1/2 -translate-y-1/2 w-full text-[150px] font-bold font-bebas text-foreground z-10">
+          <div className="flex items-center justify-between absolute -left-3 -right-3 top-1/2 -translate-y-1/2 text-[150px] font-bold font-bebas text-foreground ">
             <span>[</span>
             <span>]</span>
           </div>
         </div>
         <div className="text-end mr-4">
-          <Button className="py-2 px-6 rounded-full">
+          <Button url="/gallery" className="py-2 px-6 rounded-full">
             See More <GoArrowUpRight className="inline ml-1 text-2xl" />
           </Button>
         </div>

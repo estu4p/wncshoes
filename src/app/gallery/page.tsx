@@ -25,40 +25,42 @@ const GalleriesPage = () => {
         <h1 className="font-bebas text-7xl leading-[0.9]">
           Wash & Care Workshop Galleries
         </h1>
-        <p className="text-gray text-2xl">
+        <span className="text-gray text-2xl">
           Real result that speak for themselves.
-        </p>
-        {/* images */}
-        <div className="my-5 mx-auto gap-x-5 max-[350px]:columns-1 columns-2 md:columns-3 lg:columns-4 mt-20">
-          {galleries.map((gallery, index) => (
-            <div key={index}>
-              <div className="w-full mt-[10px] break-inside-avoid">
-                <Image
-                  src={gallery.src}
-                  alt={gallery.alt}
-                  width={500}
-                  height={500}
-                  className="max-w-full rounded-[15px] brightness-90"
-                />
-                <p className="mt-2 px-1 leading-tight mb-5 font-bold">
-                  Sepatu menjadi keren ya!
-                </p>
-              </div>
-              <div key={index} className="w-full mt-[10px] break-inside-avoid">
-                <Image
-                  src={gallery.src}
-                  alt={gallery.alt}
-                  width={500}
-                  height={500}
-                  className="max-w-full rounded-[15px] brightness-90"
-                />
-                <p className="mt-2 px-1 leading-tight mb-5 font-bold">
-                  Sepatu menjadi keren ya!
-                </p>
-              </div>
+        </span>
+      </div>
+      {/* images */}
+      <div className="my-5 mx-auto gap-x-5 max-[350px]:columns-1 columns-2 md:columns-3 lg:columns-4 mt-20">
+        {galleries.map((gallery, index) => (
+          <div key={index}>
+            <div className="w-full mt-[10px] break-inside-avoid">
+              <Image
+                src={gallery.src}
+                alt={gallery.alt}
+                width={500}
+                height={500}
+                loading="lazy"
+                className="max-w-full rounded-[15px] brightness-90"
+              />
+              <p className="mt-2 px-1 leading-tight mb-5 font-bold">
+                Sepatu menjadi keren ya!
+              </p>
             </div>
-          ))}
-        </div>
+            <div key={index} className="w-full mt-[10px] break-inside-avoid">
+              <Image
+                src={gallery.src}
+                alt={gallery.alt}
+                width={500}
+                height={500}
+                loading="lazy"
+                className="max-w-full rounded-[15px] brightness-90"
+              />
+              <p className="mt-2 px-1 leading-tight mb-5 font-bold">
+                Sepatu menjadi keren ya!
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

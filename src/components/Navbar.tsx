@@ -51,20 +51,18 @@ const Navbar = () => {
               <h1 className="font-bebas text-5xl">WNC</h1>
             </Link>
             <div className="items-center justify-between gap-8 hidden md:flex">
-              <Link href="#about">
+              <Link href="/about-us">
                 <span className="text-[18px] hover:text-gray-600">
                   About Us
                 </span>
               </Link>
-              <Link href="#about">
+              <Link href="/services">
                 <span className="text-[18px] hover:text-gray-600">
                   Services
                 </span>
               </Link>
-              <Link href="#about">
-                <span className="text-[18px] hover:text-gray-600">
-                  Contacts
-                </span>
+              <Link href="/gallery">
+                <span className="text-[18px] hover:text-gray-600">Gallery</span>
               </Link>
             </div>
             <Button className="hidden md:block font-normal">Order</Button>
@@ -90,19 +88,19 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-around h-full w-full -mt-4 bg-white">
-          <Link href="#about">
+          <Link href="/about-us">
             <span className="text-4xl font-bebas hover:text-gray-600">
               About Us
             </span>
           </Link>
-          <Link href="#about">
+          <Link href="/services">
             <span className="text-4xl font-bebas hover:text-gray-600">
               Services
             </span>
           </Link>
-          <Link href="#about">
+          <Link href="/gallery">
             <span className="text-4xl font-bebas hover:text-gray-600">
-              Contacts
+              Gallery
             </span>
           </Link>
           <div className="-mt-3">

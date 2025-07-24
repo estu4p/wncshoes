@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -14,7 +15,7 @@ const Why_Choose_Us = () => {
           <div className="h-4 w-full bg-secondary"></div>
         </div>
         {/* <div className="text-right -mt-14 mr-7"> */}
-        <div className="md:text-right -mt-5 md:-mt-14 md:mr-7">
+        <div className="md:text-right -mt-5 md:-mt-14 md:mr-7 z-10">
           {/* <h3 className="font-bebas text-secondary text-[300px] leading-none tracking-[-12px]"> */}
           <h3 className="font-bebas text-secondary text-[150px] md:text-[300px] leading-[0.8] tracking-[-2px] md:leading-none md:tracking-[-12px]">
             CHOOSE <br className="md:hidden" /> US
@@ -40,7 +41,9 @@ const Why_Choose_Us = () => {
                 </p>
               </div>
               <div className="w-12 h-12 md:w-[72px] md:h-[72px] bg-secondary rounded-full md:absolute top-3 right-3 flex items-center justify-center">
-                <GoArrowUpRight className="w-8 h-8 text-white text-center" />
+                <Link href="/about-us">
+                  <GoArrowUpRight className="w-8 h-8 text-white text-center" />
+                </Link>
               </div>
             </div>
           </div>
@@ -74,7 +77,9 @@ const Why_Choose_Us = () => {
                 Empowering you to take bold steps forward <br />{" "}
                 <span className="text-gray">with confidence and clarity</span>
               </p>
-              <GoArrowUpRight className="w-8 h-8" />
+              <Link href="/about-us">
+                <GoArrowUpRight className="w-8 h-8" />
+              </Link>
             </div>
           </div>
         </div>
