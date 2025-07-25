@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -10,6 +11,21 @@ const Footer = () => {
           <span className="text-xl">
             Chaos on the Ground but Spotless all Around
           </span>
+          <div className="text-xl space-y-3 mt-4">
+            <span className="block font-bold">Contact US</span>
+            <div className="">
+              <Link
+                href="/https://wa.me/6287852916445"
+                className="flex items-center gap-3"
+              >
+                <BsWhatsapp />
+                +62 87852916445
+              </Link>
+              <Link href="/ig" className="mt-2 flex items-center gap-3">
+                <BsInstagram /> <span className="-mt-1">wnc.shoes</span>
+              </Link>
+            </div>
+          </div>
         </div>
         {/* information */}
         <div className="flex justify-between w-full flex-wrap gap-5">

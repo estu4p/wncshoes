@@ -17,7 +17,8 @@ const OurTeam = () => {
         {/* top */}
         <div className="flex flex-col md:flex-row items-start justify-between gap-6 md:gap-0">
           <h2 className="text-8xl font-bebas leading-[0.9] tracking-[-2px]">
-            THE TEAM BEHIND - <br /> WASH & CARE
+            THE TEAM BEHIND
+            <br /> WASH <br className="md:hidden" /> AND CARE
           </h2>
           <div className="md:w-1/3">
             <p className="text-xl text-start md:text-right">
@@ -27,7 +28,7 @@ const OurTeam = () => {
             </p>
             <div className="mt-8 flex items-center justify-end">
               <Link
-                href="/"
+                href="/about-us"
                 className="underline text-2xl font-bold flex items-center gap-1.5"
               >
                 LEARN MORE
@@ -46,8 +47,8 @@ const OurTeam = () => {
               height={355}
               className="w-[447px] h-[305px] md:h-[375px] object-cover rounded-4xl brightness-90 z-10"
             />
-            <span className="text-3xl w-full md:w-[100px] text-right font-bebas leading-[1] absolute max-md:-right-0 -bottom-[75px] md:-left-28 md:bottom-4">
-              THIS IS OUR TEAM <br /> - 2025
+            <span className="text-3xl w-full md:w-[100px] text-right font-bebas leading-[1] absolute max-md:-right-0 -bottom-10 md:-left-28 md:bottom-4">
+              THIS IS OUR TEAM
             </span>
             <Button className="py-2 px-4 md:px-8 rounded-full absolute bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap">
               Ready to Meet Our Team?
@@ -55,7 +56,7 @@ const OurTeam = () => {
           </div>
         </div>
         {/* bottom */}
-        <div className="pt-[4.6rem] flex flex-col-reverse gap-7 md:gap-0 md:flex-row items-end justify-between">
+        <div className="pt-8 flex flex-col-reverse gap-7 md:gap-0 md:flex-row items-end justify-between">
           <div className="">
             <p className="text-2xl font-bold">
               <span className="text-secondary">500 + </span>Orders every mounth
@@ -69,7 +70,7 @@ const OurTeam = () => {
             <h3 className="text-5xl md:text-6xl font-bebas">
               - Expert of Team
             </h3>
-            <h3 className="text-5xl md:text-6xl font-bebas">- Warrantly</h3>
+            <h3 className="text-5xl md:text-6xl font-bebas">- Guarante</h3>
             <h3 className="text-5xl md:text-6xl font-bebas">
               - 24/7 Customer care service
             </h3>

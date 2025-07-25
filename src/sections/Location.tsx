@@ -9,7 +9,7 @@ const Location = () => {
           find us here
         </h2>
         <div className="text-center">
-          <p className="text-xl font-bold">
+          <p className="text-xl">
             No GPS stress - just clean results. Find us at our HQ and gives your
             gear the treatment it deserves
           </p>

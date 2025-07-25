@@ -22,7 +22,7 @@ const Why_Choose_Us = () => {
           </h3>
         </div>
         <div className="absolute -right-3 top-64 md:bottom-0 md:left-0 h-fit w-[58%] md:w-[418px] -z-10">
-          <div className="relative h-full w-full">
+          <div className="relative h-full">
             <Image
               src="/images/img_hero.png"
               alt="cuci sepatu jogja"
@@ -30,9 +30,9 @@ const Why_Choose_Us = () => {
               height={489}
               className="w-[218px] h-[329px] md:w-[418px] md:h-[489px] object-cover rounded-4xl"
             />
-            <div className="md:h-[223px] w-fit bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-4xl p-6 md:p-7 flex items-end">
+            <div className="md:h-[223px] max-w-full bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-3xl p-3 md:p-7 flex items-end justify-between">
               <div className="">
-                <h5 className="font-bebas text-3xl md:text-5xl whitespace-nowrap">
+                <h5 className="font-bebas text-3xl md:text-5xl whitespace-nowrap leading-[1]">
                   EXPERT OF <br className="md:hidden" /> TEAM
                 </h5>
                 <p className="text-[#667085] max-md:hidden text-lg md:text-xl mt-2">
@@ -56,10 +56,7 @@ const Why_Choose_Us = () => {
             height={189}
             className="w-[199px] h-[159px] md:w-[259px] md:h-[189px] object-cover rounded-4xl"
           />
-          <p className="mt-3 leading-tight">
-            A very elegant grey suit <br />
-            <span className="text-gray">suitable for work.</span>
-          </p>
+          <p className="mt-3 leading-tight">Hundreds of Satisfied Customers</p>
         </div>
 
         {/* <div className="w-full flex items-center justify-center"> */}
@@ -74,8 +71,10 @@ const Why_Choose_Us = () => {
             />
             <div className="w-full mb-6 flex gap-3 max-md:flex-wrap">
               <p className="leading-tight w-[140px]">
-                Empowering you to take bold steps forward <br />{" "}
-                <span className="text-gray">with confidence and clarity</span>
+                Handled with Professional Tools <br />{" "}
+                <span className="text-gray">
+                  We use safe, industry-grade products.
+                </span>
               </p>
               <Link href="/about-us">
                 <GoArrowUpRight className="w-8 h-8" />

@@ -51,28 +51,30 @@ const Hero = () => {
       {/* end baner */}
       {/* top */}
       {/* <div className="flex items-center justify-center h-[531px] -mt-4 sm:-mt-2"> */}
-      <div className="flex items-center justify-start md:justify-center h-[531px] -mt-4 sm:-mt-2 ml-8 md:ml-0">
+      {/* <div className="flex items-center justify-start md:justify-center h-[531px] -mt-4 sm:-mt-2 ml-8 md:ml-0"> */}
+      <div className="flex items-center justify-center h-[531px] -mt-10 sm:-mt-2 md:ml-[180px]">
         {/* banner */}
-        <div className="flex flex-col md:flex-row items-start ml-6 md:justify-center gap-14 md:-ml-44 -z-10">
-          <p className="leading-tight font-bold md:mt-5">
+        <div className="flex flex-row-reverse items-start md:justify-center gap-14 md:-ml-44 -z-10">
+          <p className="leading-tight font-bold text-end text-xl">
             <span className="text-gray">
               Chaos on <br /> the Ground
             </span>{" "}
-            but
             <br />
-            Spotless all Around
+            but Spotless <br /> all Around
           </p>
-          <h2 className="text-9xl font-bebas max-md:-mt-6 leading-[0.75]">
+          {/* <h2 className="text-9xl font-bebas max-md:-mt-6 leading-[0.75]"> */}
+          <h2 className="text-7xl font-bebas leading-[0.75]">
             WASH
-            <br />& CARE
+            <br />
+            and <br />
+            CARE
           </h2>
         </div>
       </div>
       {/* bottom */}
-      <div className="relative w-full md:-mt-8 mt-0">
+      <div className="relative w-full md:-mt-8 mt-0 max-md:ml-2">
         <ImageHero />
-        {/* <h2 className="font-bebas text-center text-[384px] whitespace-nowrap overflow-hidden tracking-[-18px] -z-20"> */}
-        <h2 className="font-bebas text-center text-[344px] sm:text-[384px] whitespace-nowrap overflow-hidden tracking-[-18px] -z-20 mt-20 sm:mt-0">
+        <h2 className="font-bebas text-center text-[344px] sm:text-[384px] whitespace-nowrap overflow-hidden tracking-[-18px] -z-20 mt-20 sm:mt-0 -ml-8">
           APPARELEBELL
         </h2>
       </div>
