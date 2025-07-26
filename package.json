@@ -6,8 +6,12 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
+  "homepage": "https://estu4p.github.io/wncshoes.git",
   "dependencies": {
     "clsx": "^2.1.1",
     "next": "15.3.5",
@@ -23,6 +27,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

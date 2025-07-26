@@ -14,8 +14,8 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const handleClickOutside = (e: any) => {
-      if (navMobileOpen && !e.target.closest(".navbar")) {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (navMobileOpen && !(e.target as HTMLElement).closest(".navbar")) {
         setNavMobileOpen(false);
       }
     };

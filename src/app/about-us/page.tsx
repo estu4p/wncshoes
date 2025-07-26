@@ -13,8 +13,8 @@ const AboutUsPage = () => {
           This is Wash & Care
         </h1>
         <span className="text-gray text-2xl">
-          We're a group of passionate cleaners, detailers, and artists who care
-          deeply about every pair of sneakers that comes through our doors.
+          We&rsquo;re a group of passionate cleaners, detailers, and artists who
+          care deeply about every pair of sneakers that comes through our doors.
         </span>
       </div>
       {/* Our Journey */}
@@ -49,8 +49,8 @@ const AboutUsPage = () => {
             By listening to our community, we began to understand that{" "}
             <span className="font-bold">cleaning was just the beginning.</span>{" "}
             Many items needed more than a simple wash — they needed restoration,
-            customization, and even new life. That's when our journey truly
-            began.
+            customization, and even new life. That&rsquo;s when our journey
+            truly began.
           </p>
         </div>
       </div>
@@ -101,9 +101,9 @@ const AboutUsPage = () => {
           <p className="">
             Behind Wash and Care is a team of skilled individuals — artists,
             technicians, and sneaker lovers — who are dedicated to their craft.
-            We don't just work on products; we restore memories, confidence, and
-            personal style. Every item that comes into our hands is treated as
-            if it were our own.
+            We don&rsquo;t just work on products; we restore memories,
+            confidence, and personal style. Every item that comes into our hands
+            is treated as if it were our own.
           </p>
           <p>
             We believe the people we serve deserve more than a quick clean. They

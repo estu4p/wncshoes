@@ -1,6 +1,5 @@
 import Button from "@/components/Button";
 import Image from "next/image";
-import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Gallery = () => {
@@ -28,15 +27,15 @@ const Gallery = () => {
           <div className="w-[93%] md:w-[95%] flex items-center justify-center">
             <div className="overflow-hidden group z-10 ml-6 md:ml-8">
               <div className="flex animate-loop-scroll space-x-7 w-max ">
-                {[...Array(2)].flatMap((_) =>
+                {[...Array(2)].flatMap((_, outerIndex) =>
                   Array.from({ length: 7 }).map((_, i) => (
                     <Image
-                      key={i + Math.random()}
+                      key={`image-${outerIndex}-${i}`}
                       width={320}
                       height={320}
                       loading="lazy"
                       src="/images/img_hero.png"
-                      className="w-60 h-60 object-cover object-center rounded-4xl "
+                      className="w-60 h-60 object-cover object-center rounded-4xl"
                       alt="Image"
                     />
                   ))
@@ -61,13 +60,13 @@ const Gallery = () => {
           </Link>
         </div> */}
         <p className="mt-2 text-foreground text-2xl text-justify">
-          we go beyond cleaning - we repair, refresh and renew. whether it's
-          your favorite sneakers, hats, or bags, see how we bring life back to
-          every piece.
+          we go beyond cleaning - we repair, refresh and renew. whether
+          it&rsquo;s your favorite sneakers, hats, or bags, see how we bring
+          life back to every piece.
         </p>
       </div>
       {/* we go beyond cleaning - we repair, refresh and renew. 
-        whether it's your favorite sneakers, hats, or bags, 
+        whether it&rsquo;s your favorite sneakers, hats, or bags, 
         see how we bring life back to every piece. */}
     </section>
   );

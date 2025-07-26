@@ -22,9 +22,9 @@ const OurTeam = () => {
           </h2>
           <div className="md:w-1/3">
             <p className="text-xl text-start md:text-right">
-              We're a group of passionate cleaners, detailers, and artists who
-              care deeply about every pair of sneakers that comes through our
-              doors.
+              We&rsquo;re a group of passionate cleaners, detailers, and artists
+              who care deeply about every pair of sneakers that comes through
+              our doors.
             </p>
             <div className="mt-8 flex items-center justify-end">
               <Link
