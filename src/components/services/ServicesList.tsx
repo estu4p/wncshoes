@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 type ServicesListProps = {
-  title: String;
+  title: string;
   icon: ReactElement;
   sections: {
     subtitle: string;
