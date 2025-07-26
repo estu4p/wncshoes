@@ -22,7 +22,7 @@ const Why_Choose_Us = () => {
           </h3>
         </div>
         <div className="absolute -right-3 top-64 md:bottom-0 md:left-0 h-fit w-[58%] md:w-[418px] -z-10">
-          <div className="relative h-full">
+          <div className="relative h-full w-full">
             <Image
               src="/images/img_hero.png"
               alt="cuci sepatu jogja"

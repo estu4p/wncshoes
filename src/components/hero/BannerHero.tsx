@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const BannerHero = () => {
   return (
-    <div className="w-[127px] sm:w-fit">
+    <div className="w-[127px] sm:w-fit bg-white rounded-2xl flex flex-col p-1 items-center justify-center z-50">
       <Image
         src="/images/img_hero.png"
         alt="cuci sepatu jogja"

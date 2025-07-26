@@ -26,12 +26,12 @@ const Hero = () => {
       </div> */}
       {/* banner */}
       <div
-        className={`absolute lg:right-16 top-24 md:top-32 z-50 sm:right-8 transition-all ease-out duration-300 ${
+        className={`absolute lg:right-16 top-36 md:top-32 z-50 sm:right-8 transition-all ease-out duration-300 ${
           showBanner ? "right-8" : "-right-32"
         }`}
       >
         <button
-          className="sm:hidden px-2 py-2 rounded-full bg-secondary text-white absolute -right-5 -top-5 z-50"
+          className="sm:hidden px-2 py-2 rounded-full bg-secondary text-white absolute -right-5 -top-5 z-50 cursor-pointer"
           onClick={() => setShowBanner(false)}
         >
           <CgClose />
@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
       {!showBanner && (
         <button
-          className={`absolute sm:hidden px-2 py-2 rounded-l-md bg-secondary text-white transition-all ease-out duration-500 top-24 z-50 ${
+          className={`absolute sm:hidden px-2 py-2 rounded-l-md bg-secondary text-white transition-all ease-out duration-500 top-36 z-50 ${
             showBanner ? "-right-2" : "right-0"
           }`}
           onClick={() => setShowBanner(true)}
