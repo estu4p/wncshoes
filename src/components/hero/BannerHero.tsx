@@ -6,8 +6,8 @@ const BannerHero = () => {
   return (
     <div className="w-[127px] sm:w-fit bg-white rounded-2xl flex flex-col p-1 items-center justify-center z-50">
       <Image
-        src="/images/img_hero.png"
-        alt="cuci sepatu jogja"
+        src="/images/IMG_5095.jpeg"
+        alt="cuci sepatu anak jogja"
         width={150}
         height={150}
         // className="rounded-4xl w-[177px] h-[180px] object-cover"
