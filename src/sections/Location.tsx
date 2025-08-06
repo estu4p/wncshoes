@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Location = () => {
@@ -22,14 +23,19 @@ const Location = () => {
             height={390}
             className="w-full h-[340px] md:h-[390px] object-cover rounded-4xl brightness-90"
           />
-          <div className="bg-[#CBF1EA] absolute bottom-3 left-1/2 -translate-x-1/2 rounded-[28px] py-4 px-6 flex items-center justify-between gap-6">
-            <h5 className="font-bebas text-4xl text-foreground whitespace-nowrap">
-              open on gmaps
-            </h5>
-            <div className="w-[40px] h-[40px] bg-secondary rounded-full flex items-center justify-center">
-              <GoArrowUpRight className="w-7 h-7 text-white" />
+          <Link
+            href="https://maps.app.goo.gl/nt2TmYoBJ5aK9D9g8"
+            target="_blank"
+          >
+            <div className="bg-[#CBF1EA] absolute bottom-3 left-1/2 -translate-x-1/2 rounded-[28px] py-4 px-6 flex items-center justify-between gap-6">
+              <h5 className="font-bebas text-4xl text-foreground whitespace-nowrap">
+                open on gmaps
+              </h5>
+              <div className="w-[40px] h-[40px] bg-secondary rounded-full flex items-center justify-center">
+                <GoArrowUpRight className="w-7 h-7 text-white" />
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

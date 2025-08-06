@@ -15,13 +15,18 @@ const Footer = () => {
             <span className="block font-bold">Contact US</span>
             <div className="">
               <Link
-                href="/https://wa.me/6287852916445"
+                href="https://wa.me/6287852916445?text=Hallo%20kak,%20bisa%20order%20sekarang?"
+                target="_blank"
                 className="flex items-center gap-3"
               >
                 <BsWhatsapp />
                 +62 87852916445
               </Link>
-              <Link href="/ig" className="mt-2 flex items-center gap-3">
+              <Link
+                href="https://instagram.com/wnc.shoes"
+                target="_blank"
+                className="mt-2 flex items-center gap-3"
+              >
                 <BsInstagram /> <span className="-mt-1">wnc.shoes</span>
               </Link>
             </div>
@@ -66,7 +71,7 @@ const Footer = () => {
           <div className="">
             <h5 className="font-bebas text-3xl">Follow</h5>
             <div className="flex flex-col gap-3 text-lg mt-3">
-              <Link href="#">
+              <Link href="https://instagram.com/wnc.shoes" target="_blank">
                 <span>Instagram</span>
               </Link>
               <Link href="#">
