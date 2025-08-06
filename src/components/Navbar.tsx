@@ -65,7 +65,13 @@ const Navbar = () => {
                 <span className="text-[18px] hover:text-gray-600">Gallery</span>
               </Link>
             </div>
-            <Button className="hidden md:block font-normal">Order</Button>
+            <Button
+              className="hidden md:block font-normal"
+              url="https://wa.me/6287852916445?text=Hallo%20kak,%20bisa%20order%20sekarang?"
+              target="_blank"
+            >
+              Order
+            </Button>
           </div>
           <button onClick={handleNavMobileOpen}>
             <RiMenu3Line className="text-2xl md:hidden cursor-pointer" />
@@ -104,7 +110,13 @@ const Navbar = () => {
             </span>
           </Link>
           <div className="-mt-3">
-            <Button className="font-normal">Order Now</Button>
+            <Button
+              className="font-normal"
+              url="https://wa.me/6287852916445?text=Hallo%20kak,%20bisa%20order%20sekarang?"
+              target="_blank"
+            >
+              Order Now
+            </Button>
           </div>
         </div>
       </nav>

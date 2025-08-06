@@ -21,8 +21,8 @@ const Why_Choose_Us = () => {
             CHOOSE <br className="md:hidden" /> US
           </h3>
         </div>
-        <div className="absolute -right-3 top-64 md:bottom-0 md:left-0 h-fit w-[58%] md:w-[418px] -z-10">
-          <div className="relative h-full w-full">
+        <div className="absolute -right-3 top-64 md:bottom-0 md:left-0 h-fit w-[58%] max-w-fit md:w-[418px] -z-10">
+          <div className="">
             <Image
               src="/images/img_hero.png"
               alt="cuci sepatu jogja"
@@ -30,7 +30,7 @@ const Why_Choose_Us = () => {
               height={489}
               className="w-[218px] h-[329px] md:w-[418px] md:h-[489px] object-cover rounded-4xl"
             />
-            <div className="md:h-[223px] max-w-full bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-3xl p-3 md:p-7 flex items-end justify-between">
+            <div className="md:h-[223px] bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-3xl p-3 md:p-7 flex items-end justify-between">
               <div className="">
                 <h5 className="font-bebas text-3xl md:text-5xl whitespace-nowrap leading-[1]">
                   EXPERT OF <br className="md:hidden" /> TEAM
