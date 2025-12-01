@@ -17,12 +17,21 @@ const Location = () => {
         </div>
         <div className="w-full mt-4 relative">
           <Image
-            src="/images/img_hero.png"
+            src="/images/maps_location.png"
             alt="cuci sepatu jogja"
             width={320}
             height={390}
             className="w-full h-[340px] md:h-[390px] object-cover rounded-4xl brightness-90"
           />
+          <div className="absolute top-12 left-6 ">
+            <h3
+              className="font-bebas text-7xl md:text-[110px] font-bold text-white leading-[0.9]"
+              style={{ textShadow: "0 6px 12px rgba(0,0,0,0.6)" }}
+            >
+              WNC <br />
+              LOCATION
+            </h3>
+          </div>
           <Link
             href="https://maps.app.goo.gl/nt2TmYoBJ5aK9D9g8"
             target="_blank"

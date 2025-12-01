@@ -24,13 +24,13 @@ const Why_Choose_Us = () => {
         <div className="absolute -right-3 top-64 md:bottom-0 md:left-0 h-fit w-[58%] max-w-fit md:w-[418px] -z-10">
           <div className="">
             <Image
-              src="/images/img_hero.png"
+              src="/images/img-003.jpg"
               alt="cuci sepatu jogja"
               width={418}
               height={489}
               className="w-[218px] h-[329px] md:w-[418px] md:h-[489px] object-cover rounded-4xl"
             />
-            <div className="md:h-[223px] bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-3xl p-3 md:p-7 flex items-end justify-between">
+            <div className="md:h-[183px] bg-[#CBF1EA] absolute bottom-3 left-3 right-3 rounded-3xl p-3 md:py-9 md:px-6 flex items-end justify-between">
               <div className="">
                 <h5 className="font-bebas text-3xl md:text-5xl whitespace-nowrap leading-[1]">
                   EXPERT OF <br className="md:hidden" /> TEAM
@@ -50,7 +50,7 @@ const Why_Choose_Us = () => {
         </div>
         <div className="md:absolute w-[42%] md:top-0 md:right-7 md:w-[259px]">
           <Image
-            src="/images/img_hero.png"
+            src="/images/Satisfied_Customers.jpg"
             alt="cuci sepatu jogja"
             width={259}
             height={189}
@@ -63,11 +63,11 @@ const Why_Choose_Us = () => {
         <div className="w-full md:flex items-center justify-center mt-3 md:mt-0">
           <div className="md:ml-14 w-[199px] md:w-[246px] flex items-end gap-4 md:gap-8">
             <Image
-              src="/images/img_hero.png"
+              src="/images/profesionla_tools.png"
               alt="cuci sepatu jogja"
               width={246}
               height={246}
-              className="h-[199px] md:w-[246px] md:h-[246px] object-cover rounded-4xl"
+              className="h-[199px] min-w-[180px] md:min-w-[207px] md:h-[246px] object-cover rounded-4xl"
             />
             <div className="w-full mb-6 flex gap-3 max-md:flex-wrap">
               <p className="leading-tight w-[140px]">

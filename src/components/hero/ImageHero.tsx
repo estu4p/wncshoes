@@ -10,7 +10,7 @@ const ImageHero = () => {
           <p className="text-white font-bold tracking-wide">SINCE 2023</p>
         </div>
         <Image
-          src="/images/img_hero.png"
+          src="/images/img-111(1).jpg"
           alt="cuci sepatu jogja"
           width={371}
           height={448}

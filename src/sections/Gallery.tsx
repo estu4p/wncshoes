@@ -33,7 +33,7 @@ const Gallery = () => {
                       key={`image-${outerIndex}-${i}`}
                       width={320}
                       height={320}
-                      loading="lazy"
+                      // loading="lazy"
                       src="/images/img_hero.png"
                       className="w-60 h-60 object-cover object-center rounded-4xl"
                       alt="Image"

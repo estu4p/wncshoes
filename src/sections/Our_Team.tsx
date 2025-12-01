@@ -41,7 +41,7 @@ const OurTeam = () => {
         <div className="flex items-center justify-center">
           <div className="relative z-20">
             <Image
-              src="/images/img_hero.png"
+              src="/images/bhnd.png"
               alt="cuci sepatu jogja"
               width={427}
               height={355}

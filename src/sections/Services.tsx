@@ -11,45 +11,46 @@ const services = [
     className: "flex justify-end max-md:text-end",
     items: [
       {
-        src: "/images/img_hero.png",
+        src: "/images/deep-clean.png",
         alt: "cuci sepatu jogja",
         width: 246,
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl border border-gray",
         text: "Deep Clean",
         subText: "Total care, inside and out.",
       },
       {
-        src: "/images/img_hero.png",
+        src: "/images/regluar-clean.png",
         alt: "cuci sepatu jogja",
         width: 246,
         height: 340,
         divClassName: "md:absolute -top-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl border border-gray",
         text: "Regular Clean",
         subText: "Everyday fresh, quick & clean.",
       },
       {
-        src: "/images/img_hero.png",
+        src: "/images/one-day.png",
         alt: "cuci sepatu jogja",
         width: 200,
         height: 246,
         divClassName: "md:absolute bottom-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "One Day Service",
         subText: "Cleaned and ready in 24h.",
       },
       {
-        src: "/images/img_hero.png",
+        src: "/images/fast-clean.png",
         alt: "cuci sepatu jogja",
         width: 190,
         height: 153,
         divClassName: "md:absolute -bottom-20 left-[126px] w-full md:w-[190px]",
-        imgClassName: "w-[190px] h-[153px] object-cover rounded-4xl",
+        imgClassName:
+          "w-[190px] h-[153px] object-cover rounded-4xl  border border-gray",
         text: "Fast Clean",
         subText: "Express clean for light dirt.",
       },
@@ -57,28 +58,28 @@ const services = [
   },
   {
     title: "bag cleaning",
-    count: "4",
+    count: "3",
     className: "max-md:text-end max-md:mr-10 md:ml-8",
     items: [
       {
-        src: "/images/img_hero.png",
-        alt: "cuci sepatu jogja",
+        src: "/images/bag-small.png",
+        alt: "cuci tas jogja",
         width: 246,
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl  border border-gray",
         text: "Small Bag",
         subText: "Light touch, fresh result.",
       },
       {
-        src: "/images/img_hero.png",
-        alt: "cuci sepatu jogja",
+        src: "/images/bag-medium.png",
+        alt: "cuci tas jogja",
         width: 246,
         height: 340,
         divClassName: "md:absolute -top-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Medium Bag",
         subText: "Clean care, just the right fit.",
       },
@@ -89,19 +90,9 @@ const services = [
         height: 246,
         divClassName: "md:absolute bottom-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Large Bag",
         subText: "Thorough wash for bigger gear.",
-      },
-      {
-        src: "/images/img_hero.png",
-        alt: "cuci sepatu jogja",
-        width: 190,
-        height: 153,
-        divClassName: "md:absolute -bottom-20 left-[126px] w-full md:w-[190px]",
-        imgClassName: "w-[190px] h-[153px] object-cover rounded-4xl",
-        text: "Fast Clean",
-        subText: "Heavy-duty clean, full refresh.",
       },
     ],
   },
@@ -117,7 +108,7 @@ const services = [
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl  border border-gray",
         text: "Hat/Topi",
         subText: "Deep clean for caps and hats.",
       },
@@ -128,7 +119,7 @@ const services = [
         height: 340,
         divClassName: "md:absolute -top-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Helmet",
         subText: "Remove odor, sweat, and dirt.",
       },
@@ -139,7 +130,7 @@ const services = [
         height: 246,
         divClassName: "md:absolute bottom-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Sandal",
         subText: "Refresh straps, soles, and footbeds.",
       },
@@ -149,7 +140,8 @@ const services = [
         width: 190,
         height: 153,
         divClassName: "md:absolute -bottom-20 left-[126px] w-full md:w-[190px]",
-        imgClassName: "w-[190px] h-[153px] object-cover rounded-4xl",
+        imgClassName:
+          "w-[190px] h-[153px] object-cover rounded-4xl  border border-gray",
         text: "Wallet",
         subText: "Gentle wash for leather or fabric.",
       },
@@ -167,7 +159,7 @@ const services = [
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl  border border-gray",
         text: "Reglue",
         subText: "Reattach detached soles or parts.",
       },
@@ -178,7 +170,7 @@ const services = [
         height: 340,
         divClassName: "md:absolute -top-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Unyellowing Sole",
         subText: "Remove yellow tint from soles.",
       },
@@ -189,7 +181,7 @@ const services = [
         height: 246,
         divClassName: "md:absolute bottom-16 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[240px] object-cover rounded-4xl  border border-gray",
         text: "Recolour",
         subText: "Repaint outer parts of shoes.",
       },
@@ -199,7 +191,8 @@ const services = [
         width: 190,
         height: 153,
         divClassName: "md:absolute -bottom-20 left-[126px] w-full md:w-[190px]",
-        imgClassName: "w-[190px] h-[153px] object-cover rounded-4xl",
+        imgClassName:
+          "w-[190px] h-[153px] object-cover rounded-4xl  border border-gray",
         text: "Repaint",
         subText: "Change entire shoe color tone.",
       },
@@ -217,7 +210,7 @@ const services = [
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl  border border-gray",
         text: "Shoe Painting",
         subText: "Hand-painted shoes with unique designs.",
       },
@@ -228,7 +221,7 @@ const services = [
         height: 340,
         divClassName: "md:absolute -top-2.5 right-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[340px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[340px] object-cover rounded-4xl  border border-gray",
         text: "Totebag Painting",
         subText: "Custom art on your tote bags.",
       },
@@ -238,7 +231,8 @@ const services = [
         width: 190,
         height: 153,
         divClassName: "md:absolute -bottom-20 left-[126px] w-full md:w-[190px]",
-        imgClassName: "w-[190px] h-[153px] object-cover rounded-4xl",
+        imgClassName:
+          "w-[190px] h-[153px] object-cover rounded-4xl  border border-gray",
         text: "Apparel Painting",
         subText: "Personalized artwork on your clothing.",
       },
@@ -256,7 +250,7 @@ const services = [
         height: 363,
         divClassName: "md:absolute top-0 left-0 w-full md:w-[246px]",
         imgClassName:
-          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl",
+          "w-[200px] h-[153px] md:w-[246px] md:h-[363px] object-cover rounded-4xl  border border-gray",
         text: "One Day Service",
         subText: "Cleaned and ready in 24h.",
       },
@@ -267,7 +261,7 @@ const services = [
         height: 340,
         divClassName: "md:absolute -top-2.5 right-0 w-full md:w-[246px]",
         imgClassName:
-          "h-[200px] w-[246px] md:h-[340px] object-cover rounded-4xl",
+          "h-[200px] w-[246px] md:h-[340px] object-cover rounded-4xl  border border-gray",
         text: "Discoutn 10% for instagram promotion",
         subText: "Tag us and enjoy 10% off.",
       },
@@ -277,17 +271,21 @@ const services = [
 
 const Services = () => {
   const [serviceActive, setServiceActive] = useState(0);
+  const [isAutoPlay, setIsAutoPlay] = useState(true);
 
   useEffect(() => {
+    if (!isAutoPlay) return;
+
     const interval = setInterval(() => {
       setServiceActive((prev) => (prev + 1) % services.length);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isAutoPlay]);
 
   const handleClick = (index: number) => {
     setServiceActive(index);
+    setIsAutoPlay(false);
   };
 
   return (
